@@ -77,7 +77,7 @@ body {
 
 /*Tipografia*/
 h1 {
-    font-size: 3.8rem;
+    font-size: 3.3rem;
 }
 
 h2 {
@@ -96,7 +96,20 @@ h3 {
 
 /* Titulos*/
 .titulo span {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 480px) {
+    .titulo span {
+        font-size: 2rem;
+    }
+}
+
+/*telefono*/
+@media (min-width: 480px) {
+    .titulo {
+        font-size: 3.8rem;
+    }
 }
 
 /* Utilidades */
@@ -128,8 +141,7 @@ h3 {
     flex-direction: column;
 }
 
-/*telefono*/
-/*media (min-width: 480px) {}*/
+
 
 /*tablet*/
 @media (min-width: 768px) {
